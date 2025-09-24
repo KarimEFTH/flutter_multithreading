@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'dart:async';
 import 'dart:isolate';
-// pour (compute)
-// import 'package:flutter/foundation.dart';
+// Pour (compute)
+import 'package:flutter/foundation.dart';
 
 void main() => runApp(const MyApp());
 
