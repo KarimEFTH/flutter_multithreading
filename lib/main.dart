@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'dart:async';
 import 'dart:isolate';
 // Pour (compute)
@@ -62,7 +61,7 @@ class _MultiThreadingDemoState extends State<MultiThreadingDemo> {
     setState(() => _result = "⚠️ Heavy task finished (UI blocked). sum=$sum");
   }
 
-  // Exemple 1
+  // Methode 1
 
   // Heavy task dans un Isolate — n'empêche pas l'UI
   Future<void> _heavyTaskWithIsolate() async {
@@ -82,7 +81,7 @@ class _MultiThreadingDemoState extends State<MultiThreadingDemo> {
     sendPort.send(sum);
   }
 
-  // Exemple 2
+  // Methode 2
 
   // // Heavy task avec compute — UI reste fluide
   // Future<void> _heavyTaskWithCompute() async {
