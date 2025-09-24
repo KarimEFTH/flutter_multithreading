@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+// Pour (Timer)
 import 'dart:async';
+// Pour (Isolate)
 import 'dart:isolate';
 // Pour (compute)
-import 'package:flutter/foundation.dart';
+// import 'package:flutter/foundation.dart';
 
 void main() => runApp(const MyApp());
 
